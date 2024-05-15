@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-light-purple: #EFE9F4;
+    --color-light-blue: #5FBFF9;
+    --color-dark-blue: #171d1c70;
+    --color-turquoise: #16BAC5;
+    --color-dark-gray: #EFE9F4;
+    /* #EFE9F4 */
+}
+.heading-div{
+    width: 100%;
+    height: 30px;
+}
+.heading{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    color: #171D1C;
+    margin-top: 50px;
+}
+.main-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: var(--color-turquoise);
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 var(--color-dark-blue), /* Shadow color with blur effect */
+    0 0 20px 0 var(--color-dark-blue), /* Shadow color with blur effect */
+    0 0 20px 0 var(--color-dark-blue), /* Shadow color with blur effect */
+    0 0 20px 0 var(--color-dark-blue); /* Shadow color with blur effect */
+}
+.qauites-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 190px ;
+    padding: 40px 20px 20px 20px;
+}
+.button-box{
+    width: 100%;
+    height: 190px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+#button{
+    padding: 10px 30px 10px 30px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: var(--color-light-purple);
+    transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+    color: #171D1C;
+    font-weight: bolder;
+}
+#button:hover {
+    box-shadow: 0 0 20px 0 var(--color-light-purple), /* Shadow color with blur effect */
+    0 0 20px 0 var(--color-light-purple), /* Shadow color with blur effect */
+    0 0 20px 0 var(--color-light-purple), /* Shadow color with blur effect */
+    0 0 20px 0 var(--color-light-purple); /* Shadow color with blur effect */
+    border: transparent;
+    background-color: var(--color-turquoise);
+    color: var(--color-light-purple);
+}
+#para{
+    text-align: center;
+    color: var(--color-dark-gray);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7rem;
+}
